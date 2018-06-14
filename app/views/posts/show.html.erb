@@ -1,0 +1,11 @@
+<div align="center">
+  <div class="container">
+    <p id="notice"><%= notice %></p>
+    <div class="bg-warning">
+      <h3 class="bg-info"><%= @post.title %></h3>
+      <div><%= @post.body %></div>
+    </div>
+  </div>
+
+  <%= link_to 'Back', posts_path %>
+</div>
